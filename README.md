@@ -1,24 +1,23 @@
-# NerdAbility - A CV Generator
-A Jekyll based CV page generator based on the user profile page on Nerdability.
-
-You can checkout the page generated for this repo here: http://robhinds.github.io
-
-A few years agao I helped create a devloper CV webapp that let users sign up and connect lots of online footprints to make a dynamic online CV (formerly nerdability.com, now parked at: http://nerdability.esy.es/ ), and I thought why not just create a static site generated version that re-created the user profile CV.  Luckily, GitHub provides native support for Jekyll sites as part of its user pages (http://{{yourusername}}.github.io), so as well as hosting the Jekyll project on GitHub, it also automatically builds and serves the site for you on a nice share-able URL.
 
 
-## Making your own CV
+ - title: Ahmed Ali Adeel (CV/Resume)
+   url: https://github.com/greenmughal
 
-To make your own GitHub hosted CV:
+# Skills
+ - C#, ASP.net MVC/CORE, T-SQL
+ - Python, Django, Scrapy
+ - Javascript, ES6/ES6
 
-1. Fork this repo into your github account 
-2. Click the "Settings" button in your new forked repository (in the menu on the right), and change the repository's name to {{yourusername}}.github.io, replacing yourusername with your GitHub user name.
-3. Update /_config.yml with the details of your CV - the comments will explain what is required
-4. Visit http://{{yourusername}}.github.io to check it out
-5. Share your new CV/Profile with the world!
-
-
-If you want to test it locally, install Ruby & Jekyll, clone the repository locally and run "jekyll serve" from the repo root directoy.
-
-If you want to host the page on your own web hosting, you will need to run it locally and jekyll will build the site files to the /_site directory which you can then push to your hosting provider - See https://jekyllrb.com/ for details.
-
+# Work experience 
+ - title: Software Developer
+   start: 2013
+   end: Ongoing
+   employer: Flora Technology, Doha Qatar
+   description: I work in Flora Technology's software department, my job roles include but not limited to requirements analysis, webapp/software development, I usually do end to end ie from concept, gui, db to actual coding.
+ 
+# Education
+ - level: Master of Business Administration
+   date: 2011
+   subject: Finance 
+   school: University of Central Punjab
 
